@@ -1,3 +1,14 @@
+:root {
+  --bg-page:   #0d0d14;
+  --bg-card:   #1a1a2e;
+  --neon:      #b84fff;
+  --neon-dim:  #7c3aed33;
+  --neon-glow: #b84fff22;
+  --neon-dark: #8a2be2;
+  --txt:       #f0eaff;
+  --txt-sub:   #a78bc4;
+  --brd:       #2e2450;
+}
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
@@ -58,12 +69,12 @@
 
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
+  --eerie-black-1: var(--bg-card);
   --eerie-black-2: hsl(240, 2%, 12%);
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-crayola: var(--neon);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
