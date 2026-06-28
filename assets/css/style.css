@@ -1524,3 +1524,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .social-list { justify-content: center; }
   .timeline-text { max-width: 700px; }
 }
+
+.service-icon-box img {
+  filter: drop-shadow(0 0 6px #b84fff) saturate(150%) brightness(110%);
+}
