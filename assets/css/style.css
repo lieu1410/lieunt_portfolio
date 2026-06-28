@@ -495,7 +495,7 @@ main {
 
 /* SVG icon: đổi sang tím neon */
 .service-icon-box img {
-  filter: drop-shadow(0 0 6px #b84fff) saturate(150%) brightness(110%);
+  filter: none;
 }
 
 .service-content-box { text-align: center; }
