@@ -46,7 +46,7 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
+    #b84fff 0%, 
     hsla(36, 100%, 69%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
@@ -61,7 +61,7 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
+    #b84fff, 
     hsl(35, 100%, 68%)
   );
 
@@ -78,7 +78,7 @@
   --vegas-gold: #9f6ff7;
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --bittersweet-shimmer: #9f6ff7;
 
   /**
    * typography
@@ -1887,7 +1887,21 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
 	 * RESUME
 	 */
+/* Neon glow overrides */
+.skill-progress-fill,
+.timeline-item::before {
+  box-shadow: 0 0 8px #b84fff, 0 0 16px #7c3aed;
+}
 
+.nav-link.active {
+  color: #b84fff !important;
+  text-shadow: 0 0 8px #b84fff;
+}
+
+.article-title::after {
+  background: #b84fff;
+  box-shadow: 0 0 8px #b84fff;
+}
   .timeline-text { max-width: 700px; }
 
 }
