@@ -1513,3 +1513,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .social-list { justify-content: center; }
   .timeline-text { max-width: 700px; }
 }
+
+/* Icon neon tím */
+.service-icon-box img {
+  filter: hue-rotate(200deg) saturate(150%) brightness(1.2);
+}
