@@ -473,6 +473,8 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  border: 1px solid #2e2450;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .service-item::before {
@@ -484,15 +486,26 @@ main {
   z-index: -1;
 }
 
+.service-item:hover {
+  border-color: #b84fff;
+  box-shadow: 0 0 20px #b84fff22;
+}
+
 .service-icon-box { margin-bottom: 10px; }
-.service-icon-box img { margin: auto; }
+
+/* SVG icon: đổi sang tím neon */
+.service-icon-box img {
+  margin: auto;
+  filter: invert(38%) sepia(93%) saturate(749%) hue-rotate(243deg) brightness(95%) contrast(97%) drop-shadow(0 0 6px #b84fff);
+}
+
 .service-content-box { text-align: center; }
 .service-item-title { margin-bottom: 7px; }
 
 .service-item-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-3);
+  font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
@@ -1513,22 +1526,3 @@ textarea.form-input::-webkit-resizer { display: none; }
   .social-list { justify-content: center; }
   .timeline-text { max-width: 700px; }
 }
-
-/* Icon neon tím */
-.service-icon-box img {
-  filter: brightness(0) invert(1) sepia(1) saturate(300%) hue-rotate(270deg) drop-shadow(0 0 8px #b84fff) !important;
-}
-.service-item ion-icon {
-  color: #b84fff;
-  filter: drop-shadow(0 0 6px #b84fff);
-}
-
-.service-item {
-  border: 1px solid #2e2450 !important;
-}
-
-.service-item:hover {
-  border-color: #b84fff !important;
-  box-shadow: 0 0 15px #b84fff22;
-}
-
