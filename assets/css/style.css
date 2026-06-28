@@ -495,9 +495,21 @@ main {
 
 /* SVG icon: đổi sang tím neon */
 .service-icon-box img {
-  filter: invert(29%) sepia(98%) saturate(2000%) hue-rotate(270deg) brightness(85%) contrast(110%) drop-shadow(0 0 8px #b84fff);
-}
+  width: 42px;
+  height: 42px;
 
+  filter:
+    brightness(0)
+    saturate(100%)
+    invert(33%)
+    sepia(94%)
+    saturate(2232%)
+    hue-rotate(258deg)
+    brightness(104%)
+    contrast(104%)
+    drop-shadow(0 0 8px #b84fff)
+    drop-shadow(0 0 15px #b84fff);
+}
 .service-content-box { text-align: center; }
 .service-item-title { margin-bottom: 7px; }
 
