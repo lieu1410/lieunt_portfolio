@@ -1516,9 +1516,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 /* Icon neon tím */
 .service-icon-box img {
-  filter: brightness(0) invert(1) sepia(1) saturate(500%) hue-rotate(240deg) drop-shadow(0 0 6px #b84fff);
+  filter: brightness(0) invert(1) sepia(1) saturate(200%) hue-rotate(220deg) brightness(0.9) drop-shadow(0 0 8px #b84fff);
 }
-
 .service-item ion-icon {
   color: #b84fff;
   filter: drop-shadow(0 0 6px #b84fff);
