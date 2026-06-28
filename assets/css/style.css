@@ -290,7 +290,7 @@ main {
   border: 2px solid #b84fff;
   box-shadow: 0 0 10px #b84fff, 0 0 25px #7c3aed, 0 0 50px #7c3aed44;
   padding: 0;             /* bỏ padding để ảnh sát khung */
-}}
+}
 
 .info-content .name {
   color: white;
