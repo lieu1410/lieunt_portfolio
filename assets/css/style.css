@@ -285,6 +285,9 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  border: 2px solid #b84fff;
+  box-shadow: 0 0 10px #b84fff, 0 0 25px #7c3aed, 0 0 50px #7c3aed44;
+  padding: 3px;
 }
 
 .info-content .name {
