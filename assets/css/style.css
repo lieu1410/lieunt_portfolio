@@ -873,7 +873,9 @@ main {
 }
 
 .skill-progress-fill {
-  background: #b84fff;
+  height: 8px;
+  border-radius: 10px;
+  background: #b84fff !important;
   box-shadow: 0 0 8px #b84fff;
 }
 
