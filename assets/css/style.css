@@ -1518,3 +1518,17 @@ textarea.form-input::-webkit-resizer { display: none; }
 .service-icon-box img {
   filter: hue-rotate(200deg) saturate(150%) brightness(1.2);
 }
+
+.service-item ion-icon {
+  color: #b84fff;
+  filter: drop-shadow(0 0 6px #b84fff);
+}
+
+.service-item {
+  border: 1px solid #2e2450 !important;
+}
+
+.service-item:hover {
+  border-color: #b84fff !important;
+  box-shadow: 0 0 15px #b84fff22;
+}
