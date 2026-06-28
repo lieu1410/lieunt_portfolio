@@ -1531,3 +1531,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   border-color: #b84fff !important;
   box-shadow: 0 0 15px #b84fff22;
 }
+
+.service-icon-box {
+  background: red !important;
+}
