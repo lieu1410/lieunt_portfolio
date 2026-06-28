@@ -506,9 +506,7 @@ main {
     saturate(2232%)
     hue-rotate(258deg)
     brightness(104%)
-    contrast(104%)
-    drop-shadow(0 0 8px #b84fff)
-    drop-shadow(0 0 15px #b84fff);
+    contrast(104%);
 }
 .service-content-box { text-align: center; }
 .service-item-title { margin-bottom: 7px; }
